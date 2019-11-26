@@ -11,16 +11,16 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-    resolved= [] 
+    greater_pair = [] 
     row_index = 0
     while row_index < src.length 
-      if src[row_index] [0] > src [row_index] [1]
-      resolved << src [row_index] [0]
+      if src[row_index][0] > src [row_index][1]
+      greater_pair << src[row_index][0]
       else 
-      resolved << src [row_index] [1]
+      greater_pair << src[row_index][1]
       end 
     row_index += 1 
-    return resolved 
+    return greater_pair
 end
 
 def total_even_pairs(src)
