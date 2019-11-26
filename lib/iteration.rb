@@ -20,7 +20,7 @@ def find_greater_pair(src)
       resolved << src [row_index] [1]
       end 
     row_index += 1 
-    resolved 
+    return resolved 
 end
 
 def total_even_pairs(src)
