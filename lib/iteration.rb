@@ -21,7 +21,7 @@ def find_greater_pair(src)
     end
     total 
 end
-end total += (row_index[0] + row_index[1])
+end total += (row_index[0] + row_index[1]) 
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
