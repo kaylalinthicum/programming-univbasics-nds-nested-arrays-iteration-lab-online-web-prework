@@ -24,7 +24,6 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
- def total_even_pairs(src)
     total = 0 
     row_index = 0 
     while row_index < src.count do 
