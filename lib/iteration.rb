@@ -3,7 +3,12 @@ def join_ingredients(src)
   
 
 def find_greater_pair(src)
-  
+  array_2 = [[-1, -900], [10, 30], [0, 0], [14, 16 * -2.5], [Math.sin(1), 19]]
+  src = []
+  row_index = 0
+  while row_index < array_2.count do
+    element_index = 0 
+    
 end
 
 def total_even_pairs(src)
