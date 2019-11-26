@@ -1,5 +1,5 @@
 def join_ingredients(src)
-  array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
+ 
   
 
 def find_greater_pair(src)
